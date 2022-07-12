@@ -237,13 +237,13 @@ footer p{
 
 .mySlides-content a{
     font-weight: bold;
-    background-color: #fff505;
+    background-color: var(--amarillo);
     border-radius: 2em;
 }
 
 .mySlides-content button{
     padding: 10px;
-    background-color: #fff505;
+    background-color: var(--amarillo);
     border-radius: 2em;
     border: none;
 }
@@ -289,14 +289,14 @@ footer p{
     height: 15px;
     width: 15px;
     margin: 10px 2px 0;
-    background-color: #bbb;
+    background-color: var(--grisClaro);
     border-radius: 50%;
     display: inline-block;
     transition: background-color 300ms ease;
   }
   
 .active, .dot:hover {
-    background-color: #717171;
+    background-color: var(--grisOscuro);
 }
 
 .fade {
@@ -319,7 +319,7 @@ footer p{
 }
 
 .colecciones h1{
-    width: 50%;
+    width: 55%;
     padding: 10px;
     margin: 100px auto 0;
     font-size: 2em;
@@ -431,7 +431,7 @@ footer p{
 }
 
 .evento a{
-    width: 24%;
+    width: 30%;
     padding: 15px;
     background-color: black;
     color: white;
@@ -452,13 +452,24 @@ transition: 100ms;
     }
 }
 
+@media (max-width: 768px){
+    .mySlides-content h2{
+        margin-bottom: 15px;
+        width: 289px;
+    }
+    
+    .mySlides-text{
+        width: 300px;
+    }
+}
 /* -------------------- COLECCIONES -------------------- */
 
 /* Hero */
 
 .hero-colecciones h1{
     font-size: 2.5em;
-    padding: 100px 175px 0;
+    padding: 100px 50px 0;
+    margin: auto;
 }
 
 /* Coleccion */
@@ -473,7 +484,7 @@ transition: 100ms;
     position: absolute;
     height: 2em;
     width: 100%;
-    background-color: #fff505;
+    background-color: var(--amarillo);
     z-index: -1;
 }
 
@@ -549,7 +560,7 @@ transition: 100ms;
     position: absolute;
     height: 2em;
     width: 100%;
-    background-color: #fff505;
+    background-color: var(--amarillo);
     z-index: -1;
 }
 
@@ -572,7 +583,7 @@ transition: 100ms;
     height: 2em;
     width: 50%;
     align-self: flex-end;
-    background-color: #fff505;
+    background-color: var(--amarillo);
     z-index: -1;
 }
 
@@ -796,23 +807,20 @@ transition: 100ms;
 
 @media (max-width: 768px){
     .evento-hero h2{
-        width: 50%;
-        margin: 0 50px;
-        font-size: 2.5em;
-        text-align: left;
-        color: white;
+        color: transparent;
     }
     
     .evento-hero h3{
-        width: 180px;
-        margin: 0 50px;
-        text-align: left;
-        font-size: 1.5em;
-        color: #3B637A;
+        color: transparent;
     }    
+
+    .evento-info-fila div{
+        width: 80%;
+        margin: 0 50px 25px;
+    }
     
     .evento-info h2, .evento-info h3{
-        width: 80%;
+        width: 100%;
     }
 
     .evento-inscripcion h3{
@@ -835,7 +843,7 @@ transition: 100ms;
 .mapa h1{
     min-width: 350px;
     max-width: 550px;
-    padding: 0 50px 50px 0;
+    padding: 0 50px 50px;
 }
 
 /* Lugares */
@@ -851,7 +859,7 @@ transition: 100ms;
     margin: 25px;
     padding: 10px 30px;
     width: 325px;
-    height: 90px;
+    /* height: 90px; */
     display: flex;
     background-color: var(--grisClaro);
     border-radius: 3em;
