@@ -16,9 +16,13 @@
     
   Finalmente se pidio codear el sitio web usando HTML, CSS y un minimo de JavaScript. El **resultado final** puede verse aqui:
   
-  [link al sitio web ficticio de Adidas]()
+  [link al sitio web ficticio de Adidas](https://matymonte.github.io/Adidas-website/)
+  
+  pd: Tener en cuenta que los links que deberian llevarlo al sitio web oficial ya sea al e-shop, colecciones o productos, pueden estar rotos si Adidas los cambia.
 
-### Español
+### /Español
+
+ 
 
 ## English
 
@@ -36,6 +40,8 @@
   
   Finally it was asked to code the website using HTML, CSS and minimal JavaScript. **The final result** can be seen here:
   
-  [link to dummy Adidas website]()
+  [link to dummy Adidas website](https://matymonte.github.io/Adidas-website/)
+  
+  pd: Note that the links that should take you to the official e-shop, colections or products may be broken if the real Adidas website changes them.
   
 ### /English
