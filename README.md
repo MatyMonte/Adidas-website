@@ -12,11 +12,11 @@
     
   Luego se pidio hacer el **Look&Feel** de las paginas del sitio web, tambien hecho en Figma:
   
-  [link to Look&Feel](https://www.figma.com/file/1xGlkX9EqBI7tXtvlWH6F5/Look%26Feel-Adidas-website?node-id=0%3A1)
+  [link al Look&Feel](https://www.figma.com/file/1xGlkX9EqBI7tXtvlWH6F5/Look%26Feel-Adidas-website?node-id=0%3A1)
     
   Finalmente se pidio codear el sitio web usando HTML, CSS y un minimo de JavaScript. El **resultado final** puede verse aqui:
   
-  [link to dummy Adidas website]()
+  [link al sitio web ficticio de Adidas]()
 
 ### Español
 
